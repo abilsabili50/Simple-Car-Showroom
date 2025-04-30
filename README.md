@@ -63,3 +63,19 @@ Sebelum menjalankan proyek ini, pastikan Anda sudah menginstal:
 ```bash
 git clone https://github.com/username/showroom-mobil-app.git
 cd showroom-mobil-app
+cd ./Backend || cd ./Frontend
+npm install
+npm run dev
+
+
+### 2. Access Endpoint that Created
+
+##### Frontend
+```bash
+http://localhost:{PORT}
+```
+
+##### Backend
+```bash
+http://localhost:3000/api/v1
+```
